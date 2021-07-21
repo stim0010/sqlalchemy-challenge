@@ -8,11 +8,17 @@ def home():
 @app.route("/api/v1.0/precipitation")
 def precipitation():
 
+    jsonify(precipitation)
+
 @app.route("/api/v1.0/stations")
 def stations():
 
+    jsonify(stations)
+
 @app.route("/api/v1.0/tobs")
 def tobs():
+
+    jsonify(tobs)
 
 @app.route("/api/v1.0/<start>` and `/api/v1.0/<start>/<end>")
 def 
