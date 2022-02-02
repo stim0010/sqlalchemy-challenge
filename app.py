@@ -22,3 +22,6 @@ def tobs():
 
 @app.route("/api/v1.0/<start>` and `/api/v1.0/<start>/<end>")
 def 
+
+if __name__ == "__main__":
+    app.run(debug=True)
